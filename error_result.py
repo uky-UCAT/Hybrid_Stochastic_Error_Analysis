@@ -34,5 +34,5 @@ print(f"Maximum Error: {max_error}")
 file_path = "resources/A_to_B/AtoBerror.csv"  # replace with your file
 mae,max_error = calculate_errors(file_path)
 print("Analog to Binary Error:")
-print(f"Mean Absolute Error: {mae/255*100}%")
-print(f"Maximum Error: {max_error/255*100}%")
+print(f"Mean Absolute Error: {mae/255}")
+print(f"Maximum Error: {max_error/255}")
